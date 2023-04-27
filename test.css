@@ -76,7 +76,6 @@ a::before {
  
 a:hover::before,
 a:focus::before {
-    transform: scale(2);
     opacity: 1;
 }
 
@@ -90,7 +89,6 @@ a::after {
  
 a:hover::after,
 a:focus::after {
-    transform: scale(2);
     opacity: 1;
 }
 
@@ -138,3 +136,15 @@ a:focus::after {
     transform: scale(2);
     opacity: 1;
 }
+
+
+.sign {
+    float: right; /* Выравнивание по правому краю */
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 0 5px 5px; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */ 
+   }
+   .sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+   }
